@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e76544e9180a8a45abd51ddebbb0848, type: 3}
+  m_Name: Meat - Raw Meat Patty
+  m_EditorClassIdentifier: 
+  InputIngredient: {fileID: 11400000, guid: 4196bcfb973024d40a105ca4354c6d15, type: 2}
+  OutputIngredient: {fileID: 11400000, guid: 6de02a483e414ab4aba3db7a556e6747, type: 2}
+  CutsNeeded: 3

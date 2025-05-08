@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 246195089dd0be84cb43aad0b307ac16, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 1306327380853519030, guid: 7e6c8b33e3f0ae44483b561726b7ac82, type: 3}
+  _acceptsKitchenStation: 0
+  _kitchenStationUsable: 0
+  _acceptsInventoryIndex: 0
+  _acceptsCommandLine: 0
+  _acceptsTickAmount: 1
+  _acceptsMealOrderRecipe: 0
+  Actions:
+  - {fileID: 11400000, guid: 4cbde0dd438249541ae3d6bbbdae19b9, type: 2}

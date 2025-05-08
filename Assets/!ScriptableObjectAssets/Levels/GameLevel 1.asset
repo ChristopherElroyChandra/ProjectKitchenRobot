@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4c54a462b13814daca0ffb8b2891d0, type: 3}
+  m_Name: GameLevel 1
+  m_EditorClassIdentifier: 
+  LevelName: Level 1
+  LevelDescription: Robot's First Lines
+  KitchenDesign: {fileID: 11400000, guid: d829af653f19ccd4cb12d11100cb5c82, type: 2}
+  InventorySlots: 1
+  RobotCommands:
+  - {fileID: 11400000, guid: 7e20ea03972d19646ac05187ce1aeaff, type: 2}
+  - {fileID: 11400000, guid: ff3ebdaa7104fa8448ce6139b6f6024c, type: 2}
+  - {fileID: 11400000, guid: e5f17198e7528bc44ba9439364a2fe2f, type: 2}
+  MealOrders:
+  - mealRecipe: {fileID: 11400000, guid: 864b763578f3ae344b84fce497f5cddc, type: 2}
+    quantity: 1
+  HasTutorial: 1
+  TutorialSprites:
+  - {fileID: 21300000, guid: 9d2915e3cee84be4687000344187d261, type: 3}
+  - {fileID: 21300000, guid: d56387143e879f847a6722f6fcaa85d6, type: 3}
+  - {fileID: 21300000, guid: 98f40f547bb55fb41ad2f4e7498864a1, type: 3}
+  - {fileID: 21300000, guid: f60a64012ca4c8a428928e9974ad3670, type: 3}
+  - {fileID: 21300000, guid: 9bc2503edfcac1e418d6e713db7e3f79, type: 3}
+  - {fileID: 21300000, guid: a5fb76e7ca5a8244ea7ac9df63e5fd63, type: 3}
+  - {fileID: 21300000, guid: 5599278df1d3362419a6285c335a4fa4, type: 3}

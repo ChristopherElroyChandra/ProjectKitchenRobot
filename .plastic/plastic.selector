@@ -1,0 +1,4 @@
+repository "ProjectKitchenRobot@T2LabGat@cloud"
+  path "/"
+    br "/main"
+    co "/main"

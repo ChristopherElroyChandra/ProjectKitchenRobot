@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: WorldCanvas
+    uniqueID: 1938330705
+    locked: 0

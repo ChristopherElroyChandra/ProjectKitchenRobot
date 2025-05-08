@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4c54a462b13814daca0ffb8b2891d0, type: 3}
+  m_Name: GameLevel 6
+  m_EditorClassIdentifier: 
+  LevelName: Level 6
+  LevelDescription: Robot.Start(Shift)
+  KitchenDesign: {fileID: 11400000, guid: b2fd38377d060eb42bbf97afe1716617, type: 2}
+  InventorySlots: 3
+  RobotCommands:
+  - {fileID: 11400000, guid: ef411fbd790a3a14a9634c706861e240, type: 2}
+  - {fileID: 11400000, guid: e1413650dc8e6ec4eac932d92f694af3, type: 2}
+  - {fileID: 11400000, guid: e5f17198e7528bc44ba9439364a2fe2f, type: 2}
+  - {fileID: 11400000, guid: e21b2eab8043dbc46804e359d605db3c, type: 2}
+  - {fileID: 11400000, guid: a677fedcad09b9848ba8de7f5a9bcbb1, type: 2}
+  - {fileID: 11400000, guid: 1ae24052ce92a9945842b0583d119b1b, type: 2}
+  - {fileID: 11400000, guid: e65ffdb674587c54e9389d0678dd502c, type: 2}
+  MealOrders:
+  - mealRecipe: {fileID: 11400000, guid: 9534d9d4e5664824b8acdf15987cf30c, type: 2}
+    quantity: 2
+  - mealRecipe: {fileID: 11400000, guid: e2bfdef0dd6bbf44e950665d66c95321, type: 2}
+    quantity: 1
+  - mealRecipe: {fileID: 11400000, guid: 58336867952182744af759cf48ce3784, type: 2}
+    quantity: 1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 246195089dd0be84cb43aad0b307ac16, type: 3}
+  m_Name: TakeFrom
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 7971532148351476252, guid: 74ef118c5482d014aa5fa5c751aa4404, type: 3}
+  _acceptsKitchenStation: 1
+  _kitchenStationUsable: 0
+  _acceptsInventoryIndex: 0
+  _acceptsCommandLine: 0
+  _acceptsTickAmount: 0
+  _acceptsMealOrderRecipe: 0
+  Actions:
+  - {fileID: 11400000, guid: 32988174044de494faa5e43d31087d51, type: 2}
+  - {fileID: 11400000, guid: b92d51191b777f5448a82b62cda8894c, type: 2}

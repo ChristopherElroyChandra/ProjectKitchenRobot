@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e76544e9180a8a45abd51ddebbb0848, type: 3}
+  m_Name: Lettuce - Cut Lettuce
+  m_EditorClassIdentifier: 
+  InputIngredient: {fileID: 11400000, guid: 2f36e7725c9cb0b4e93b1fed166b7bf7, type: 2}
+  OutputIngredient: {fileID: 11400000, guid: 038beadf9d7a56c4a950b43ba6a2742b, type: 2}
+  CutsNeeded: 3

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4c54a462b13814daca0ffb8b2891d0, type: 3}
+  m_Name: GameLevel 5
+  m_EditorClassIdentifier: 
+  LevelName: Level 5
+  LevelDescription: A Leap Of Logic
+  KitchenDesign: {fileID: 11400000, guid: a2f25a90b25c4844abfe794bd1791565, type: 2}
+  InventorySlots: 3
+  RobotCommands:
+  - {fileID: 11400000, guid: ef411fbd790a3a14a9634c706861e240, type: 2}
+  - {fileID: 11400000, guid: e1413650dc8e6ec4eac932d92f694af3, type: 2}
+  - {fileID: 11400000, guid: e5f17198e7528bc44ba9439364a2fe2f, type: 2}
+  - {fileID: 11400000, guid: e21b2eab8043dbc46804e359d605db3c, type: 2}
+  - {fileID: 11400000, guid: a677fedcad09b9848ba8de7f5a9bcbb1, type: 2}
+  - {fileID: 11400000, guid: 1ae24052ce92a9945842b0583d119b1b, type: 2}
+  - {fileID: 11400000, guid: e65ffdb674587c54e9389d0678dd502c, type: 2}
+  MealOrders:
+  - mealRecipe: {fileID: 11400000, guid: 447975822e115ca4e850b1e79472f5e7, type: 2}
+    quantity: 2
+  - mealRecipe: {fileID: 11400000, guid: 6dd8681eaec57ee409ac47ba0b0f9142, type: 2}
+    quantity: 2
+  - mealRecipe: {fileID: 11400000, guid: 79ef14af72c666a4ab916e2a47c1b57b, type: 2}
+    quantity: 1
+  HasTutorial: 1
+  TutorialSprites:
+  - {fileID: 21300000, guid: 962f3c7f1d134474999e0597e3f5e2ec, type: 3}
+  - {fileID: 21300000, guid: 3ba0ef5760494e9418e17e730694a3f2, type: 3}

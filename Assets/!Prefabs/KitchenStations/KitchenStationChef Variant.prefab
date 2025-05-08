@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2161907321077415479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1728309848741466451, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728309848741466451, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728309848741466451, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728309848741466451, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728309848741466451, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728309848741466451, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728309848741466451, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728309848741466451, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728309848741466451, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728309848741466451, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559338936704987684, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_Name
+      value: KitchenStationChef Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111262461696512143, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8470589
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111262461696512143, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_Color.g
+      value: 0.47058827
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111262461696512143, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      propertyPath: m_Color.r
+      value: 0.23529413
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8952945304956420256, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5559338936704987684, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7771417497350251955}
+  m_SourcePrefab: {fileID: 100100000, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+--- !u!1 &5991509408237931539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5559338936704987684, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+  m_PrefabInstance: {fileID: 2161907321077415479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7771417497350251955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991509408237931539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac03caa579a4c74408dcf8f629f66c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialGridPosition: {x: 0, y: 0}
+  _ingredient: {fileID: 0}
+  _visual: {fileID: 6528561024685285998}
+  _sprite: {fileID: 21300000, guid: 94134fd5b03eaa74fa1768a2b55f169c, type: 3}
+  _dragPointerData: {fileID: 0}
+  _recipeList: {fileID: 11400000, guid: 22c62fa3fa983f44da51b70fbc956663, type: 2}
+--- !u!114 &6528561024685285998 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4943466850063293529, guid: a2d8775f99b3f804790d0850bb172d24, type: 3}
+  m_PrefabInstance: {fileID: 2161907321077415479}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c0de4610ed8f444b0bd1969a72f115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
